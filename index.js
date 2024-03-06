@@ -31,7 +31,7 @@ async function main() {
       console.log(colors.green("Bot: " + completionText));
 
       chatHistory.push(["user", userInput]);
-      chatHistory.push(["assitant", completionText]);
+      chatHistory.push(["assistant", completionText]);
     } catch (err) {
       console.log(colors.red(err));
     }
